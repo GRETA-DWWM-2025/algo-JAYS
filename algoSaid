@@ -1,0 +1,13 @@
+Algorithme Tri_Bulle
+Entrée : Un tableau T de taille n
+Début
+    Répéter
+        échange <-- Faux
+        Pour i allant de 0 à n - 2 faire
+            Si T[i] > T[i + 1] alors
+                échanger T[i] et T[i + 1]
+                échange <-- Vrai
+            Fin Si
+        Fin Pour
+    Jusqu’à ce qu’aucun échange n’ait été effectué (échange = Faux)
+Fin

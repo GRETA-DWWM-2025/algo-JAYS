@@ -3,6 +3,7 @@
 Ce dépôt contient un exercice algorithmique réalisé en groupe de 4 personnes, avec mise en commun sur GitHub. Un bon mélange de logique, d'échange et de lignes de code bien pensées.
 
 🧑‍🚀 Équipage du projet
+
 🦉 Alexandre Dulon
 
 🐢 Jason Perrault

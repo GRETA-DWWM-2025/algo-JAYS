@@ -1,0 +1,28 @@
+fonction triParSelection(tableau)
+    pour i de 0 à longueur(tableau) - 2
+        minIndex ← i
+        pour j de i + 1 à longueur(tableau) - 1
+            si tableau[j] < tableau[minIndex]
+                minIndex ← j
+        si minIndex ≠ i
+            échanger tableau[i] et tableau[minIndex]
+    retourner tableau 
+
+    ou 
+
+Tri_Selection(Var T : Tab)
+Var
+i, j, x, indmin : Entier
+Début
+Pour i de 1 à (n-1) Faire
+indmin := i
+Pour j de (i+1) à n Faire
+Si (T[j] < T[indmin]) Alors
+indmin := j
+FinSi
+FinPour
+x:= T[i]
+T[i]:= T[indmin]
+T[indmin]:= x
+FinPour
+Fin
